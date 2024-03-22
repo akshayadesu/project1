@@ -1,0 +1,70 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}.grid{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.sidebar{
+  background-color: violet;
+  width: 200px;
+  height: 700px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.topbar{
+  background-color: violet;
+  width: 1300px;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 60px;
+}
+
+.right-content{
+  padding-bottom: 20px;
+}
+.card-container{
+  width: 500px;
+  height: 200px;
+  margin-top: -200px;
+}
+
+.card {
+  background-color: violet;
+  color: white;
+  padding: 20px; /* Increase padding for better spacing */
+  border-radius: 8px;
+  width: 300px; /* Increase width as desired */
+  margin-right: 30px;
+}
+
+
+.status-button {
+  background-color: white;
+  color: violet;
+  border: 1px solid violet;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px; /* Gap between cards */
+  margin-left: 60px;
+}
+
+.button{
+  background-color: white;
+  border-radius: 7px;
+  width: fit-content;
+  height: fit-content;
+  background-color: violet;
+  border-color: violet;
+}
